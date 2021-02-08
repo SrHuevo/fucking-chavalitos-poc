@@ -1,0 +1,177 @@
+body {
+    background-image: url("phone-template.jpg");
+    background-position-x: center;
+    background-position-y: top;
+    background-repeat: no-repeat;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+}
+
+#background {
+    width: 254px;
+    background-color: black;
+    height: 483px;
+    position: absolute;
+    left: calc(50vw - 127px);
+    top: 62px;
+}
+
+#video {
+    position: absolute;
+    left: calc(50vw - 127px);
+    top: 230px;
+}
+
+#app {
+    width: 254px;
+    background-color: transparent;
+    color: white;
+    height: 483px;
+    position: absolute;
+    left: calc(50vw - 127px);
+    top: 62px;
+}
+
+#restartButton {
+    position: absolute;
+    top: 510px;
+    left: calc(50vw + 57px);
+}
+
+.title {
+    border: white solid 2px;
+    border-radius: 8px;
+    background-color: #17a2b8;
+    padding: 10px;
+    text-align: center;
+}
+
+#title1 {
+    margin: 100px 10px 20px;
+}
+
+#title2 {
+    margin: 100px 10px 20px;
+}
+
+#title3 {
+    margin: 53px 10px 20px;
+}
+
+img {
+    width: 200px;
+}
+
+.answer {
+    border-radius: 8px;
+    background-color: #007bff;
+    font-size: 12px;
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    width: 91px;
+}
+
+#answer11 {
+    float: left;
+    margin-left: 20px;
+}
+
+#answer12 {
+    float: right;
+    margin-right: 20px;
+}
+
+#answer13 {
+    float: left;
+    clear: both;
+    margin-left: 20px;
+}
+
+#answer14 {
+    float: right;
+    margin-right: 20px;
+}
+
+#answer21 {
+    float: left;
+    margin-left: 20px;
+}
+
+#answer22 {
+    float: right;
+    margin-right: 20px;
+}
+
+#answer23 {
+    float: left;
+    clear: both;
+    margin-left: 20px;
+}
+
+#answer24 {
+    float: right;
+    margin-right: 20px;
+}
+
+#answer31 {
+    float: left;
+    margin-left: 20px;
+}
+
+#answer32 {
+    float: right;
+    margin-right: 20px;
+}
+
+#answer33 {
+    float: left;
+    clear: both;
+    margin-left: 20px;
+}
+
+#answer34 {
+    float: right;
+    margin-right: 20px;
+}
+
+#error-text {
+    margin: 20px;
+    text-align: center;
+    background-color: #17a2b8;
+    border-radius: 8px;
+    border: white solid 2px;
+}
+
+#success-text {
+    margin: 20px;
+    text-align: center;
+    background-color: #17a2b8;
+    border-radius: 8px;
+    border: white solid 2px;
+}
+
+.button {
+    color: black;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#accumulateButton {
+    background-color: #ffc107;
+    margin: 100px 55px 0;
+}
+#unlockButton {
+    background-color: #28a745;
+    margin: 20px 55px;
+    color: white;
+}
+#errorButton {
+    background-color: #ffc107;
+    margin: 200px 55px;
+}
+

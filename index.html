@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,100&display=swap"
+          rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <script type="application/javascript" src="index.js"></script>
+</head>
+<body>
+<div id="background"></div>
+<div id="video">
+
+</div>
+
+<div id="app" hidden>
+    <div id="question1" class="question">
+        <div id="title1" class="title">
+            <p>Juan travels with his car from Manchester to London at an average speed of 75 miles per hour and Pedro
+                travels from London to Manchester at 60 miles per hour. If the distance between the cities is 200 miles,
+                at what mile will they cross?</p>
+        </div>
+        <div id="answer11" class="answer" onclick="choose(11)">
+            <p>111</p>
+        </div>
+        <div id="answer12" class="answer" onclick="choose(12)">
+            <p>120</p>
+        </div>
+        <div id="answer13" class="answer" onclick="choose(13)">
+            <p>88</p>
+        </div>
+        <div id="answer14" class="answer" onclick="choose(14)">
+            <p>95</p>
+        </div>
+    </div>
+    <div id="question2" class="question" hidden>
+        <div id="title2" class="title">
+            <p>What is the capital of Spain?</p>
+        </div>
+        <div id="answer21" class="answer" onclick="choose(21)">
+            <p>Madrid</p>
+        </div>
+        <div id="answer22" class="answer" onclick="choose(22)">
+            <p>Barcelona</p>
+        </div>
+        <div id="answer23" class="answer" onclick="choose(23)">
+            <p>Paris</p>
+        </div>
+        <div id="answer24" class="answer" onclick="choose(24)">
+            <p>Sevilla</p>
+        </div>
+    </div>
+    <div id="question3" class="question" hidden>
+        <div id="title3" class="title">
+            <p>What is this muscle called?</p>
+            <img src="http://www.homomedicus.com/wp-content/uploads/2020/09/descarga-1.jpg">
+        </div>
+        <div id="answer31" class="answer" onclick="choose(31)">
+            <p>Biceps</p>
+        </div>
+        <div id="answer32" class="answer" onclick="choose(32)">
+            <p>Triceps</p>
+        </div>
+        <div id="answer33" class="answer" onclick="choose(33)">
+            <p>Quadriceps</p>
+        </div>
+        <div id="answer34" class="answer" onclick="choose(34)">
+            <p>Humerus</p>
+        </div>
+    </div>
+    <div id="success" hidden>
+        <div id="success-text">
+            <h1>All right!</h1>
+            <h2 id="accumulatedTime"></h2>
+            <p>What do you want to do?</p>
+        </div>
+        <div id="accumulateButton" class="button" onclick="success()">Accumulate more time</div>
+        <div id="unlockButton" class="button" onclick="unlock()">Unlock</div>
+    </div>
+
+    <div id="error" hidden>
+        <div id="error-text">
+            <h1>Oh Oh!</h1>
+        </div>
+        <div id="errorButton" class="button" onclick="error()">Try again</div>
+    </div>
+</div>
+
+<button id="restartButton" onclick="restart()">Restart</button>
+</body>
+</html>
